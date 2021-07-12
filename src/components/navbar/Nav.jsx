@@ -18,9 +18,13 @@ function NavActice(props) {
           onClick(label);
         }}
       >
+
         {label}
+
       </Link>
+
     </li>
+
   );
 }
 
@@ -34,11 +38,14 @@ export default class Nav extends Component {
       username: '',
       rol : ''
     };
+
   }
 
   onClick = (tab) => {
     this.setState({ activeButton: tab });
+    
   };
+
 
   render() {
     const {

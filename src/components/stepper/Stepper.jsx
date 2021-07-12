@@ -72,11 +72,20 @@ const Stepper = ({ steps, showNumber, activeStep, onSelect, valid }) => {
           );
         })}
       </div>
-      
+
+
     </>
+
+
+
 
   );
 
+
+
+
 };
+
+
 
 export default Stepper;
