@@ -5,7 +5,9 @@ export default class Select extends Component {
     super(props);
     this.state = {
       value: null,
+
     };
+
   }
 
   render() {
@@ -27,5 +29,7 @@ export default class Select extends Component {
         </select>
       </div>
     );
+
   }
+  
 }
