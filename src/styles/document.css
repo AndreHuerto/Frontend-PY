@@ -1,0 +1,19 @@
+.react-pdf__Page{
+    margin: 0 !important;
+    width: 60% !important;
+}
+.react-pdf__Document{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 300px;
+}
+
+.react-pdf__Page__canvas{
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0;
+}
+.react-pdf__Page__textContent{
+    display: none;
+}

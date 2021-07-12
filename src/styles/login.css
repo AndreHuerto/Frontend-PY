@@ -1,0 +1,28 @@
+.upeuj{
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+.upeul{
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+.upeut,.linea2{
+    clip-path: polygon(0 0, 30% 0, 100% 72%, 100% 100%, 60% 100%, 20% 48%, 0 20%);
+}
+.linea1{
+    clip-path: polygon(69% 0, 95% 0, 88% 20%, 60% 100%, 0 100%, 0 84%, 46% 28%);
+
+}
+.login__center{
+    left: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.font__proyecto{
+    font-family: 'MicrosoftSansSerif';
+}
+
+.login__loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
